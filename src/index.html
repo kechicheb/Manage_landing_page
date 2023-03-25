@@ -1,13 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/main.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="container relative mx-auto p-6">
+      <div class="flex justify-between items-center">
+        <div class="pt-2">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+        <div class=" md:flex md:space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Poduct</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <button
+          class="rounded-full bg-brightRed hover:bg-brightRedLight px-4 pt-2 pb-3 text-white"
+        >
+          Get Started
+        </button>
+      </div>
+    </nav>
+  </body>
 </html>
