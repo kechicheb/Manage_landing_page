@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/main.css" rel="stylesheet" />
+    <script src="/js/main.js" defer></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -20,12 +21,22 @@
           <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
           <a href="#" class="hover:text-darkGrayishBlue">Community</a>
         </div>
+        <!-- button -->
         <a
           href="#"
           class="hidden rounded-full bg-brightRed hover:bg-brightRedLight px-4 pt-2 pb-3 text-white md:block"
         >
           Get Started
         </a>
+        <!-- Hamburger Icon -->
+        <button
+          id="toggle-btn"
+          class="block toggle md:hidden focus:outline-none"
+        >
+          <span class="toggle-top"></span>
+          <span class="toggle-middle"></span>
+          <span class="toggle-bottom"></span>
+        </button>
       </div>
     </nav>
   </body>
