@@ -700,7 +700,7 @@ video {
   transition-duration: 150ms;
 }
 
-body {
+.body {
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-size: 800px;
@@ -708,7 +708,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
+  .body {
     background-position: 50px -50px;
     background-size: 500px;
   }
