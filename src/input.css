@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.body {
+body {
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-size: 800px;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 576px) {
-  .body {
+  body {
     background-position: 50px -50px;
     background-size: 500px;
   }
